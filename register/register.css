@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #FFA357;
+    --accent-color: #0147FF;
+    --secondary-color: #060E2D;
+}
+
+
+body {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#register-form {
+    background-color: white;
+    width: 25em;
+    min-height: 10em;
+    border-radius: 0.4em;
+
+}
+
+.register-form-container {
+    padding: 2.5em;
+    position: relative;
+} 
+
+.free-fire-image {
+    position: absolute;
+    top: -5em;
+    left: 0.4em;
+    width: 8em;
+}
+
+.free-fire-image img {
+    width: 100%;
+}
+
+.tournament-type {
+    display: flex;
+    margin-top: 4em;
+    align-items: center;
+}
+
+.tournament-type input {
+    margin-top: 0.8em;
+}
+
+/* input[type ="checkbox"]{
+    color: #000;
+    background-color: #000;
+} */
+
+.tournament-type i{
+    margin-left: 2.2em;
+    font-style: normal;
+    font-weight: bold;
+    color: darkgrey;
+}
+
+.tournament-type p {
+    margin-right: 0.6em;
+}
+
+
+
+input {
+    margin-bottom: 1em;
+    outline: none;
+    border: 1.8px solid lightgrey;
+    width: 100%;
+    padding: 0.3em;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0.3em;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: darkgray;
+}
+
+button {
+    width: 100%;
+    background-color: #0147FF;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0.6em ;
+    cursor: pointer;
+}
+
+.form-controlls {
+    margin-top: 1em;
+    display: flex;
+    gap: 0.5em;
+}

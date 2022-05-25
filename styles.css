@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #FFA357;
+    --accent-color: #0147FF;
+    --secondary-color: #060E2D;
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+}
+
+
+.text-white {
+    color: white;
+}
+
+#main {
+    background-color: var(--primary-color);
+}
+
+.main-container {
+    display: flex;
+}
+
+.main-left {
+    margin-left: 6em;
+    margin-top: 4em;
+}
+
+.main-info {
+    font-family: 'Titan One', cursive;
+    font-size: 2.5rem;
+    width: 10em;
+}
+
+.main-info h1 {
+    width: fit-content;
+}
+
+
+video {
+    width: 100%;
+    height: 100%;
+}
+.main-video-preview {
+    margin-top: 2em;
+    width: 350px;
+    position: relative;
+    z-index: 3;
+
+}
+
+.main-video-preview::before {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 195px;
+    top: -0.5em;
+    left: -0.5em;
+    background-color: var(--accent-color);
+    z-index: -2;
+
+}
+
+.free-fire-image {
+    width: 60em;
+    margin-top: 2.5em;
+}
+
+
+.free-fire-image img {
+    width: 100%;
+    height: 100%;
+    padding-top: 1em;
+}
+
+
+#main-two {
+    background-color: var(--secondary-color);
+}
+
+.main-two-container {
+    padding: 3em ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.guild-logo {
+    width: 10em;
+    border-radius: 10em;
+    overflow: hidden;
+
+}
+
+.guild-logo img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.join-tournament {
+    color: white;
+    font-family: 'Titan One', cursive;
+    letter-spacing: 0.2em;
+    font-size: 1.3rem;
+}
+
+.join-tournament p {
+    color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 1em;
+    letter-spacing: normal;
+    font-size: 1rem;
+}
+
+button {
+    outline: none;
+    border: none;
+    background-color: var(--accent-color);
+    color: white;
+    padding: 1em 6em;
+    margin-top: 2em;
+    font-size: 0.6em;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
