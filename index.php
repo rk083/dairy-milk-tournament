@@ -31,11 +31,20 @@
 
     </section>
 
+    <section id = "rules">
+
+    </section>
+
     <section id="main-two">
         <div class="main-two-container">
             <div class="guild-logo">
                 <img src="./images/guild-logo.jpg" alt="Dairy Milk">
             </div>
+
+<div class="banner">
+    <img src="./images/banner.jpg" alt="Dairy Milk Banner" />
+</div>
+
             <div class="join-tournament">
                 <h1>JOIN THE TOURNAMENT</h1>
                 <p>We have special prizes for you</p>
