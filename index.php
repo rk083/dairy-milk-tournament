@@ -33,6 +33,23 @@
 
     <section id = "rules">
 
+    <div class="rules-container">
+
+    <ul>
+        <li>1. Latest tournament details are given below read clearly before participating in the tournament.</li>
+        <li>2. Before filling-up the form choose which tournament is currently available (type: solo, duo, and squad).</li>
+        <li>3. After filling-up the form click on payment and payment available wallets or bank and send the screenshot as proof by mail. Without payment your registration will be not accepted</li>
+        <li>4. After successfully registering, join the FB group where you will get the id and password of the tournament, before 10 minutes of the tournament.</li>
+        <li>5. Refund is not available after registration is complete</li>
+        <li>6. Take your given slot inside game, if you have any problem then message us on the FB group.</li>
+        <li>7. Any type of problem on your device such as Internet problem. We are not responsible as well as any type of third-party apps or hack disqualifies your whole team.</li>
+        <li>8. Out of registered players if any other player is found in the game then the whole team will be removed from the game.</li>
+        <li>9. Winner's prize will be sent in your eSewa wallet or whichever platform is comfortable for registered players to receive the prize.</li>
+        <li>10. Final judgment of admin is only acceptable.</li>
+    </ul>
+
+    </div>
+
     </section>
 
     <section id="main-two">
