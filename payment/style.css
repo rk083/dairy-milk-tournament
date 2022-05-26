@@ -9,6 +9,10 @@ body {
     overflow: hidden;
 }
 
+span {
+    color: black;
+}
+
 #main-one {
     min-height: 100vh;
 }

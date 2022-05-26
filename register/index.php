@@ -11,7 +11,7 @@
     <section id="register-form">
         <div class="register-form-container">
 
-            <form action="">
+            <form method = "POST" action="./registerScript.php">
 <div class="free-fire-image">
     <img src="../images/1653196979188.png" alt="free fire characters">
 </div>
@@ -20,13 +20,13 @@
 <div class="tournament-type">
 <p>Type</p>
 <i class = "solo">Solo</i>
-     <input type="checkbox" name="solo" id = "solo" value = 'off' >
+     <input type="checkbox" name="solo" id = "solo" value = "solo">
 
      <i class = "duo">Duo</i>
-     <input type="checkbox" name="duo"  id = "duo" >
+     <input type="checkbox" name="duo"  id = "duo" value = "duo">
 
      <i class = "squad">Squad</i>
-     <input type="checkbox" name="squad"  id = "squad" >
+     <input type="checkbox" name="squad"  id = "squad" value = "squad">
 </div>
 
 
@@ -40,18 +40,18 @@
    
      
     <p>Email</p>
-        <input type="text" required>
+        <input type="text" name = "email">
 
         <p>Team Name</p>
-        <input type="text" required>
+        <input type="text" name = "teamName">
     
        
         <p>Leader's FB URL</p>
-        <input type="text" required>
+        <input type="text" name = "leaderFBURL">
     
         <div id="leader">
         <p>Team Leader UID</p>
-        <input type="text" required>
+        <input type="text" name = "leaderUID">
         </div>
            
     </div>
@@ -59,23 +59,23 @@
     <div class="form-controlls-group-two">
         <div id="player-two">
     <p>Player 2 UID</p>
-        <input type="text" required>
+        <input type="text" name = "playerTwoUID">
         </div>
 
     <div id="player-three">
         <p>Player 3 UID</p>
-        <input type="text"> 
+        <input type="text" name = "playerThreeUID"> 
         </div>
     
     <div id="player-four">
         <p>Player 4 UID</p>
-        <input type="text" required>
+        <input type="text" name = "playerFourUID">
      </div>
 
 
      <div id="player-five">
         <p>Player 5 UID</p>
-        <input type="text" required>
+        <input type="text" name = "playerFiveUID">
         </div>
 
     </div>

@@ -21,12 +21,12 @@
                 <h1>In Tournament</h1>
 
                 <p>You can make payment to any of these wallets like eSewa, IMEPay, Khalti, Bank transfer. We also accept
-                    recharge cards.
+                    recharge transfer.
                 </p>
-                <p>Make payment to this mobile number 9810775083</p>
-                <p>Bank Name : NMB Bank</p>
-                <p>Account Holder Name : Suresh Raj Pant</p>
-                <p>Account Number : 09801818354600012</p>
+                <p>Make payment to this mobile number:<span>9810775083 </span></p>
+                <p>Bank Name : <span>NMB Bank </span></p>
+                <p>Account Holder Name : <span>Suresh Raj Pant</span></p>
+                <p>Account Number : <span>09801818354600012</span></p>
             </div>
 
             <div class="payment-options">
